@@ -25,6 +25,7 @@ jobs:
 
       - name: Build Rules
         run: |
+          chmod +x ./factory/auto_build.sh
           ./factory/auto_build.sh
 
       - name: Update lazy rules
